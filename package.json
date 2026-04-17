@@ -1,11 +1,9 @@
 {
   "name": "esp32-cam-cloudinary-backend",
   "version": "1.0.0",
-  "description": "ESP32-CAM image upload to Cloudinary and store URL in MongoDB",
   "main": "api/index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "nodemon api/index.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "cloudinary": "^1.41.0",
@@ -14,10 +12,7 @@
     "multer": "^1.4.5-lts.1",
     "multer-storage-cloudinary": "^4.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  },
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   }
 }
